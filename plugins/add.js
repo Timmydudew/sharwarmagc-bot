@@ -16,7 +16,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         if (!m.isGroup) return reply(`This command is only for groups.`);
         
         // Check if the bot has admin privileges
-        if (!isBotAdmins) return reply(`I need admin privileges to add users.`);
+        if (!isBotAdmins) return reply(`give me admin mf.`);
         
         // Check if the number is provided (from q or args)
         if (!q || isNaN(q)) return reply('Please provide a valid phone number to add.');
@@ -25,10 +25,10 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         // Add the user to the group
         await conn.groupParticipantsUpdate(m.chat, [userToAdd], "add");
         // Confirm the addition
-        reply(`User ${q} has been added to the group.`);
+        reply(`User ${q} has been added to sharwarma gc ofc.`);
     } catch (e) {
         console.error('Error adding user:', e);
-        reply('An error occurred while adding the user. Please make sure the number is correct and they are not already in the group.');
+        reply('An error occurred while adding the user. make sure the number is correct and they are not already in the group.');
     }
 })
 
@@ -42,8 +42,8 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         if (!isGroup) return reply('This command can only be used in a group.')
-        if (!isBotAdmins) return reply('Bot must be an admin to use this command.')
-        if (!isAdmins) return reply('You must be an admin to use this command.')
+        if (!isBotAdmins) return reply('give me admin mf.')
+        if (!isAdmins) return reply('lmao your not admin.')
 
         const goodbye = q
         if (!goodbye) return reply('Please provide a goodbye message.')
@@ -66,8 +66,8 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         if (!isGroup) return reply('This command can only be used in a group.')
-        if (!isBotAdmins) return reply('Bot must be an admin to use this command.')
-        if (!isAdmins) return reply('You must be an admin to use this command.')
+        if (!isBotAdmins) return reply('give me admin mf.')
+        if (!isAdmins) return reply('your not admin cunt')
 
         const welcome = q
         if (!welcome) return reply('Please provide a welcome message.')
