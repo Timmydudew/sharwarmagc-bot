@@ -20,7 +20,7 @@ module.exports = {
   AUTO_STICKER: process.env.AUTO_STICKER || "true",
   AUTO_REPLY: process.env.AUTO_REPLY || "true",
   OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39", // omdbapi.com
-  ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/ew4vew.jpg",
+  ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/l1si25.jpg",
   AUTO_REACT: convertToBool(process.env.AUTO_REACT || "true"),
   AUTO_REACT: process.env.AUTO_REACT === "true" ? true : false,
   CUSTOM_REACT_EMOJIS:
