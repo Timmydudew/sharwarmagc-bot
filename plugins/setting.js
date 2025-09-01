@@ -14,7 +14,7 @@ const settingsMap = [
   "AUTO_REACT"
 ];
 
-const menuImage = "https://files.catbox.moe/ew4vew.jpg"; // Catbox URL
+const menuImage = "https://files.catbox.moe/l1si25.jpg"; // Catbox URL
 
 // Show settings menu
 cmd({
