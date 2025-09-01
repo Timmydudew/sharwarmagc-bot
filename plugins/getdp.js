@@ -43,7 +43,7 @@ cmd(
         from,
         {
           image: { url: dpUrl },
-          caption: `👀 Here’s their DP! 🌸✨\nStay cute and sparkling 🩵💖`
+          caption: `HERE IS THEIR DP`
         },
         { quoted: mek }
       );
