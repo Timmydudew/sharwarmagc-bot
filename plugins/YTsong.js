@@ -45,7 +45,7 @@ cmd(
 
       // 4) Send metadata + thumbnail
       const desc = `
-🧩 *𝐍𝐄𝐍𝐎 𝐗𝐌𝐃 𝐒𝐎𝐍𝐆 𝐃𝐖𝐎𝐍𝐋𝐎𝐀𝐃𝐄𝐑* 🧩
+🧩 *SHARWARMA 𝐒𝐎𝐍𝐆 𝐃𝐖𝐎𝐍𝐋𝐎𝐀𝐃𝐄𝐑* 🧩
 
 📌 *Title:* ${info.title || "Unknown"}
 ⏱️ *Uploaded:* ${info.timestamp || "N/A"} (${info.ago || "N/A"})
